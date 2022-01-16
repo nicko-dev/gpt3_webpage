@@ -1,0 +1,79 @@
+.gpt3__article {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+
+.gpt3__article img {
+  width: 100%;
+}
+
+.gpt3__article-content {
+  flex: 2;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  background: #042c54;
+  min-height: 200px;
+  padding: 1.5rem;
+  height: 100%;
+}
+
+.gpt3__article-content_heading {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 5rem;
+}
+
+.gpt3__article-content_heading p {
+  font-family: var(--font-family);
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 35px;
+  color: #ffffff;
+}
+
+.gpt3__article-content_heading h3 {
+  font-family: var(--font-family);
+  font-weight: 800;
+  font-size: 25px;
+  line-height: 30px;
+  color: #ffffff;
+}
+
+.gpt3__article-content_footer p {
+  font-family: var(--font-family);
+  font-weight: bold;
+  font-size: 12px;
+  line-height: 35px;
+  color: #ffffff;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 550px) {
+  .gpt3__article-content_heading h3 {
+    font-size: 18px;
+    line-height: 25p;
+  }
+
+  .gpt3__article-content_heading {
+      margin-bottom: 2rem;
+  }
+
+  .gpt3__article-content {
+      padding: 1rem;
+  }
+}
+
+@media screen and (max-width: 450px) {
+  .gpt3__article-content_heading h3 {
+    font-size: 14px;
+    line-height: 20p;
+  }
+  .gpt3__article-content_footer p,
+  .gpt3__article-content_heading p {
+    font-size: 10px;
+    line-height: 16px;
+  }
+}
