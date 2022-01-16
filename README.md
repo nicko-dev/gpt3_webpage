@@ -1,2 +1,4 @@
 # gpt3_webpage
-A full responsive page made using react.js
+This is my first front-end project
+A full responsive webpage made by me using React.js following the [JS Mastery tutorial](https://www.youtube.com/watch?v=LMagNcngvcU) <br/>
+This is just the code for the page, the build version will be deployied soon.
